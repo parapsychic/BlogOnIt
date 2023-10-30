@@ -1,0 +1,11 @@
+# built files
+target/
+Cargo.lock
+
+# todos
+*todo*
+
+# testing files
+test/
+website/
+
