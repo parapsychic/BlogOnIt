@@ -1,6 +1,8 @@
 
 # Lisa: The Dance Dynamo of Blackpink
 
+%-%TOC%-%
+
 ## Introduction
 
 Lalisa Manoban, known as Lisa, is a powerhouse of talent in the music industry. Her exceptional dance skills, magnetic stage presence, and unique charisma have made her a standout member of Blackpink.

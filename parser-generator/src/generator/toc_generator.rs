@@ -10,6 +10,9 @@ pub fn generate_toc(parsed_tokens: Vec<MarkdownElement>) -> Result<Html, String>
         .iter()
         .filter_map(|token| match token {
             MarkdownElement::Heading(level, text) => {
+                if *level == 1 as usize {
+                    return None;
+                }
                 let level_changer_prefix = match current_level.cmp(&level) {
                     std::cmp::Ordering::Less => {
                         current_level = *level;
