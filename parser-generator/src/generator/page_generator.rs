@@ -163,7 +163,6 @@ fn complete_list_generator(tokens: Vec<MarkdownElement>) -> Html {
                     format!("<ol>{}", li_generator(*l, ((**t).clone()).clone(), true))
                 }
                 std::cmp::Ordering::Equal => {
-                    println!("An equal ordering was found");
                     if let Some(list_closer) = stack.last() {
                         if list_closer == "</ul>" {
                             stack.pop().unwrap();
@@ -191,7 +190,6 @@ fn complete_list_generator(tokens: Vec<MarkdownElement>) -> Html {
                     format!("<ul>{}", li_generator(*l, (**t).clone(), false))
                 }
                 std::cmp::Ordering::Equal => {
-                    println!("An equal ordering was found");
                     if let Some(list_closer) = stack.last() {
                         if list_closer == "</ol>" {
                             stack.pop().unwrap();
