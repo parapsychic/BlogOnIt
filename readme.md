@@ -24,6 +24,8 @@ Includes bad rust habits. Don't expect me to use `Rc` or `RefCell`. I have two b
 
 Upload somewhere and enjoy.
 
+#### Example
+Example of generated files in examples folder. In my defense, I provided only the topic. ChatGPT wrote the blogs.
 
 It Just Works<sup>TM</sup>  
 
