@@ -136,7 +136,7 @@ fn wikilink_parser(input: &str) -> IResult<&str, MarkdownElement> {
 
 fn hyperlink_parser(input: &str) -> IResult<&str, MarkdownElement> {
     let (remaining, alt_text) = delimited(
-        tuple((space0, char('['), space0)),
+        tuple((char('['), space0)),
         map(
             many1(alt((
                 escape_parser,
