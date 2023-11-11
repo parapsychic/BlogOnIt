@@ -13,7 +13,7 @@ x Follows Obsidian style: file name implied for h1, others are lower level heade
 Includes bad rust habits. Don't expect me to use `Rc` or `RefCell`. I have two brain cells that do not know of each other's existence.
 
 ## How to Use?
-- Make Markdown files. Math mode and codeblocks are not supported as of now. And by extension, none of the advanced funny stuff.
+- Make Markdown files. Math mode and codeblocks (highlighting, parsing is supported) are not supported as of now. And by extension, none of the advanced funny stuff.
 - Organize them into folders/directories (call it whatever you want you windows/unix purists).
 - (Optional) Add an index.md with raw html. This html would be injected into the body before the list of contents in the front page (index.html).
 - List of Contents will have a descending order according to it's last modified order (hopefully). 
