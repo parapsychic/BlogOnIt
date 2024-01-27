@@ -113,8 +113,8 @@ pub fn generate_page(tokens: Vec<MarkdownElement> ) -> Result<(String, Html), St
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
   <link href=\"css/style.css\" rel=\"stylesheet\">
 </head>
-{}
 <body>
+{}
 </body>
 </html>",
         title, html
