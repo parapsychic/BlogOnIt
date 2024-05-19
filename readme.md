@@ -1,7 +1,6 @@
 # Blog On It 
 <a  href="https://youtu.be/k-t4vqd534Y?si=psi6ZEypAcOF8pdw"><img src="https://i3.ytimg.com/vi/k-t4vqd534Y/maxresdefault.jpg" target="_blank" rel="noopener"  height=200px></a>
 
-<sup>(Original name too explicit, so I changed it)</sup>
 
 #### Planned Idea
 - [x] Converts MD files into basic html files
