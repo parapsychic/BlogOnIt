@@ -4,11 +4,9 @@
 <sup>(Original name too explicit, so I changed it)</sup>
 
 #### Planned Idea
-x Converts MD files into basic html files
-
-x Generates a table of contents as home page
-
-x Follows Obsidian style: file name implied for h1, others are lower level headers.
+- [x] Converts MD files into basic html files
+- [x] Generates a table of contents as home page
+- [x] Follows Obsidian style: file name implied for h1, others are lower level headers.
 
 Includes bad rust habits. Don't expect me to use `Rc` or `RefCell`. I have two brain cells that do not know of each other's existence.
 
